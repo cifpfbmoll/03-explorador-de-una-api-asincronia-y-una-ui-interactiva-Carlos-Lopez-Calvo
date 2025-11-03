@@ -1,0 +1,12 @@
+{
+  "/api": {
+    "target": "https://api.guildwars2.com/v2",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": ""
+    },
+    "logLevel": "debug"
+  }
+}
+
